@@ -1,5 +1,5 @@
 (function(doc) {
-    const selectClass = (className) => doc.querySelector(className)
+    const selectClass = (className) => doc.querySelector(className),
         cardsList = selectClass('.card-list'),
         cardsForm = selectClass('.card-form'),
         activeClass = selectClass('.active-modal'),
